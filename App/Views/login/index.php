@@ -23,7 +23,7 @@
                                 </ul>
                                 <div class="sign_in_sec current" id="tab-1">
 
-                                    <h3>Faça seu Login</h3>
+                                    <h3>Faça seu Login - Pesquisadores</h3>
                                     <form action="/login/entrar" method="post">
                                         <div class="row">
                                             <div class="col-lg-12 no-pdd">
