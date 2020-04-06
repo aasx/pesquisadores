@@ -74,7 +74,7 @@ class PerfilController extends Controller {
             $target = 'public/uploads/capa//'.$nomeImagemUpload;
 
             if (move_uploaded_file($_FILES['save-capa-user']['tmp_name'], $target)) {
-                $conn = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+                $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
                 $sql = "INSERT INTO capaPerfil (id_usuario, profile_image) VALUES ('$id_user', '$nomeImagemUpload')";
 
                 if(mysqli_query($conn, $sql)) {
@@ -92,7 +92,7 @@ class PerfilController extends Controller {
 
             $idUser = $_POST['idUser'];
 
-            $conn = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
             $result = mysqli_query($conn, "SELECT * FROM capaPerfil WHERE id_usuario = '$idUser' ORDER BY id DESC LIMIT 1");
 
@@ -115,7 +115,7 @@ class PerfilController extends Controller {
 
             $idUser = $_POST['idUser'];
 
-            $conn = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
             $result = mysqli_query($conn, "SELECT * FROM imgPerfil WHERE usuario = '$idUser' ORDER BY id DESC LIMIT 1");
 
@@ -143,7 +143,7 @@ class PerfilController extends Controller {
         $target = 'public/uploads/fotoPerfil//'.$nomeImagemUpload;
 
         if (move_uploaded_file($_FILES['save-foto-user']['tmp_name'], $target)) {
-            $conn = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
             $sql = "INSERT INTO imgPerfil (usuario, img) VALUES ('$id_user', '$nomeImagemUpload')";
 
             if(mysqli_query($conn, $sql)) {
@@ -166,7 +166,7 @@ class PerfilController extends Controller {
         $estado = $_POST['estado'];
         $instrucao = $_POST['instrucao'];
 
-        $conn = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+        $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
         $sql2 = "UPDATE usuario SET titulo = '".$nome."', profissao = '".$profissao."', email = '".$email."', data_nascimento = '".$dataNasc."', inicio_trabalho = '".$inicio."', cidade = '".$cidade."', estado = '".$estado."', salario = '".$salario."', nivel_instrucao = '".$instrucao."' WHERE id = '$idUser'";
         if(mysqli_query($conn, $sql2)) {
@@ -181,7 +181,7 @@ class PerfilController extends Controller {
 
             $idUser = $_POST['idUser'];
 
-            $conn = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
             $result = mysqli_query($conn, "SELECT * FROM usuario WHERE id = '$idUser' ORDER BY id DESC LIMIT 1");
 
@@ -202,7 +202,7 @@ class PerfilController extends Controller {
         $visao = $_POST['textar'];
         $idUser = $_POST['idUser'];
 
-        $conn = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+        $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
         $sql = "INSERT INTO visaoGeral (id_usuario, visao) VALUES ('$idUser', '$visao')";
         if(mysqli_query($conn, $sql)) {
@@ -217,7 +217,7 @@ class PerfilController extends Controller {
 
             $idUser = $_POST['idUser'];
 
-            $conn = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
             $result = mysqli_query($conn, "SELECT * FROM visaoGeral WHERE id_usuario = '$idUser' ORDER BY id DESC LIMIT 1");
 
@@ -314,7 +314,7 @@ class PerfilController extends Controller {
             $idUser = $_POST['idUser'];
             $idPerfil = $_POST['idPerfil'];
 
-            $conn = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
             $sql = "INSERT INTO recomendacoes (id_amigo, id_pessoal) VALUES ('$idPerfil', '$idUser')";
             if(mysqli_query($conn, $sql)) {
@@ -342,7 +342,7 @@ class PerfilController extends Controller {
             $idUser = $_POST['idUser'];
             $idPerfil = $_POST['idPerfil'];
 
-            $conn = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
             $sql = "DELETE FROM recomendacoes WHERE id_amigo = '$idPerfil' AND id_pessoal = '$idUser'";
             if(mysqli_query($conn, $sql)) {
@@ -369,7 +369,7 @@ class PerfilController extends Controller {
 
             $idPerfil = $_POST['idPerfil'];
 
-            $conn = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
             $result = mysqli_query($conn, "SELECT COUNT(*) FROM recomendacoes WHERE id_amigo = '$idPerfil'");
 
@@ -392,7 +392,7 @@ class PerfilController extends Controller {
             $idPerfil = $_POST['idPerfil'];
             $idUser = $_POST['idUser'];
 
-            $conn = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
             $result = mysqli_query($conn, "SELECT * FROM recomendacoes WHERE id_amigo = '$idPerfil' AND id_pessoal = '$idUser' LIMIT 1");
 
@@ -416,7 +416,7 @@ class PerfilController extends Controller {
             $idUser = $_POST['idUser'];
             $idVaga = $_POST['idVaga'];
 
-            $conn = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
             $sql = "DELETE FROM vaga WHERE id = '$idVaga' AND id_usuario = '$idUser'";
             if(mysqli_query($conn, $sql)) {
@@ -441,7 +441,7 @@ class PerfilController extends Controller {
             $integral = $_POST['integral'];
             $descricao = $_POST['descricao'];
 
-            $conn = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
             $sql = "UPDATE vaga SET titulo = '".$titulo."', categoria = '".$categoria."', habilidade = '".$habilidade."', preco = '".$preco."', integral = '".$integral."', descricao = '".$descricao."' WHERE id = '$idVaga' AND id_usuario = '$idUser'";
             if(mysqli_query($conn, $sql)) {
