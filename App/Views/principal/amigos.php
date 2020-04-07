@@ -128,7 +128,7 @@
 
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-8 no-pd">
+                        <div class="col-lg-9 col-md-8 no-pd">
                             <div class="main-ws-sec">
                                 <div class="post-topbar">
                                     <h3>Solicitações de Amizades</h3>
@@ -248,13 +248,13 @@
                         <div class="col-lg-12">
                             <input type="text" name="skills" placeholder="Habilidades">
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-9">
                             <div class="price-br">
                                 <input type="text" name="price1" placeholder="Preço">
                                 <i class="la la-dollar"></i>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-9">
                             <div class="inp-field">
                                 <select>
                                     <option>Integral</option>

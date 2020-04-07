@@ -320,13 +320,13 @@
                                             </li>
 
 
-                                            <li data-tab="portfolio-dd">
+                                            <li data-tab="portfolio-dd" style="display:none;visibility: hidden;">
                                                 <a href="#" title="">
                                                     <img src="/public/images/ic3.png" alt="">
-                                                    <span>Portfólio</span>
+                                                    <span style="display: none;visibility: hidden;">Portfólio</span>
                                                 </a>
                                             </li>
-                                            <li data-tab="payment-dd">
+                                            <li data-tab="payment-dd" style="display:none !important;visibility: hidden !important;">
                                                 <a href="#" title="">
                                                     <img src="/public/images/ic6.png" alt="">
                                                     <span>Pagamento</span>
@@ -1035,7 +1035,7 @@
                                                             <i class="fa fa-credit-card"></i>
                                                         </div><!--inpt-field end-->
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-lg-9">
                                                         <div class="cc-head">
                                                             <h5>Primeiro nome</h5>
                                                         </div>
@@ -1043,7 +1043,7 @@
                                                             <input type="text" name="f-name" placeholder="">
                                                         </div><!--inpt-field end-->
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-lg-9">
                                                         <div class="cc-head">
                                                             <h5>Último nome</h5>
                                                         </div>
@@ -1051,18 +1051,18 @@
                                                             <input type="text" name="l-name" placeholder="">
                                                         </div><!--inpt-field end-->
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-lg-9">
                                                         <div class="cc-head">
                                                             <h5>Data de validade</h5>
                                                         </div>
                                                         <div class="rowwy">
                                                             <div class="row">
-                                                                <div class="col-lg-6 pd-left-none no-pd">
+                                                                <div class="col-lg-9 pd-left-none no-pd">
                                                                     <div class="inpt-field">
                                                                         <input type="text" name="f-name" placeholder="">
                                                                     </div><!--inpt-field end-->
                                                                 </div>
-                                                                <div class="col-lg-6 pd-right-none no-pd">
+                                                                <div class="col-lg-9 pd-right-none no-pd">
                                                                     <div class="inpt-field">
                                                                         <input type="text" name="f-name" placeholder="">
                                                                     </div><!--inpt-field end-->
@@ -1070,7 +1070,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col-lg-9">
                                                         <div class="cc-head">
                                                             <h5>Código de Segurança <i class="fa fa-question-circle"></i></h5>
                                                         </div>
@@ -1094,7 +1094,7 @@
                                 <div class="message-btn d-none">
                                     <a href="#" title=""><i class="fa fa-envelope"></i>Mensagens</a>
                                 </div>
-                                <div class="widget widget-portfolio">
+                                <div class="widget widget-portfolio" style="display:none !important;visibility: hidden !important;">
                                     <div class="wd-heady">
                                         <h3>Portfólio</h3>
                                         <img src="images/photo-icon.png" alt="">
@@ -1176,13 +1176,13 @@
                 <input type="text" name="titulo" placeholder="Escola / Universidade">
                 <div class="datepicky">
                     <div class="row">
-                        <div class="col-lg-6 no-left-pd">
+                        <div class="col-lg-9 no-left-pd">
                             <div class="datefm">
                                 <input type="text" name="ano_inicio" placeholder="Data de Entrada (ex: dd/mm/aaaa)" class="datepicker">
                                 <i class="fa fa-calendar"></i>
                             </div>
                         </div>
-                        <div class="col-lg-6 no-righ-pd">
+                        <div class="col-lg-9 no-righ-pd">
                             <div class="datefm">
                                 <input type="text" name="ano_fim" placeholder="Data de Saída (ex: dd/mm/aaaa)" class="datepicker">
                                 <i class="fa fa-calendar"></i>

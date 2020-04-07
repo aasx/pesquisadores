@@ -5487,3 +5487,24 @@ header {
 .login-sec:after {
 	background-color: #5f5c75;
 }
+
+.user-pro-img > a {
+	background-color: #8c77c5;
+}
+
+.cover-sec > label.upload-capa {
+	display: inline-block !important;
+	color: #8c77c5 !important;
+	font-size: 16px !important;
+	background-color: #fff !important;
+	border: 1px solid #8c77c5 !important;
+	position: absolute !important;
+	top: 30px !important;
+	right: 0 !important;
+	padding: 10px 15px !important;
+	font-weight: 600 !important;
+	margin-right: 15px !important;
+	cursor: pointer !important;
+	border-radius: 25px !important;
+	box-shadow: 0 6px 9px -5px black !important;
+}

@@ -158,7 +158,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-9">
                             <div class="main-ws-sec">
                                 <div class="user-tab-sec">
                                     <h3><?php echo $aViewVar['aAmigo']['titulo']; ?></h3>
@@ -453,7 +453,7 @@
                                 <div class="message-btn d-none">
                                     <a href="#" title=""><i class="fa fa-envelope"></i> Mensagens</a>
                                 </div>
-                                <div class="widget widget-portfolio">
+                                <div class="widget widget-portfolio" style="display:none !important;visibility: hidden !important;">
                                     <div class="wd-heady">
                                         <h3>Amigos em Comum</h3>
                                         <img src="images/photo-icon.png" alt="">
