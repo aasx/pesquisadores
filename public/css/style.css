@@ -5475,3 +5475,15 @@ header {
 .view-more > a:hover {
 	color: #839a68;
 }
+
+.signin-pop {
+	background-color: #d2ecb4;
+}
+
+.login-sec:before {
+	background-color: #a4afcd;
+}
+
+.login-sec:after {
+	background-color: #5f5c75;
+}
