@@ -5402,3 +5402,32 @@ a:hover {
     transform: scale(1.0);
   }
 }
+
+header {
+	background-color: #728062;
+}
+
+.username-dt {
+	background-color: #636f56;
+}
+
+.post-topbar {
+	border-top: 4px solid #728062;
+}
+
+.post-st ul li a:hover, .post-st ul li a.active {
+	background-color: #8b87aa;
+}
+
+.user-account {
+	border-left: 1px solid #626b57;
+	border-right: 1px solid #626b57;
+}
+
+.user-fw-status li a {
+	color: #839a68;
+}
+
+.view-more > a {
+	color: #839a68;
+}

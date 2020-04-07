@@ -32,3 +32,7 @@
     /*background-color: #c2e29d;*/
     border-radius: 90px;
 }
+
+.fgt-sec input[type="checkbox"] + label span:before {
+    background-color: #aeabc3;
+}
