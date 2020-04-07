@@ -5454,3 +5454,19 @@ header {
 .suggestion-usd > span i:hover {
 	background-color: #728062;
 }
+
+.user-profy{
+	border-radius: 40px;
+	border: none;
+}
+
+.user-profy > a:hover {
+	background-color: #636f56;
+	color: #fff;
+	border-bottom-left-radius: 37px;
+	border-bottom-right-radius: 5px;
+}
+
+.user-profy:hover{
+	box-shadow: 0 15px 10px -3px #00000075 !important;
+}
