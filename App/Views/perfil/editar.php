@@ -60,7 +60,7 @@
                     </div>
                     <div class="form-group">
                         <label for="email" class="col-form-label">E-mail:</label>
-                        <input type="email" class="form-control" id="email" placeholder="seu-email@linkjobs.com" required>
+                        <input type="email" class="form-control" id="email" placeholder="seu-email@pesquisadores.com" required>
                     </div>
                     <div class="form-group">
                         <label for="dataNasc" class="col-form-label">Data de Nascimento:</label>
@@ -975,7 +975,7 @@
                                     </div><!--billing-method end-->
                                     <div class="add-billing-method">
                                         <h3>Adicionar Forma de Pagamento</h3>
-                                        <h4><img src="images/dlr-icon.png" alt=""><span>Utilizando a LinkJobs o pagamento é garantido</span></h4>
+                                        <h4><img src="images/dlr-icon.png" alt=""><span>Utilizando a Pesquisadores o pagamento é garantido</span></h4>
                                         <div class="payment_methods">
                                             <h4>Cartão de Débito e Crédito</h4>
                                             <form>
@@ -1094,7 +1094,7 @@
                     <li><a href="#" title="">Fórum</a></li>
                     <li><a href="#" title="">Fale Conosco</a></li>
                 </ul>
-                <p><img src="images/copy-icon2.png" alt="">Copyright 2019 - Universidade Presbiteriana Mackenzie</p>
+                <p><img src="images/copy-icon2.png" alt="">Copyright 2020 - Universidade Presbiteriana Mackenzie</p>
             </div>
         </div>
     </footer>

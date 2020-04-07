@@ -198,7 +198,7 @@
                                                             <label for="check-condicoes">
                                                                 <span></span>
                                                             </label>
-                                                            <small>Sim, eu li e concordo com os Termos de Uso do LinkJobs.</small>
+                                                            <small>Sim, eu li e concordo com os Termos de Uso do Pesquisadores.</small>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -242,7 +242,7 @@
                                                             <label for="c1">
                                                                 <span></span>
                                                             </label>
-                                                            <small>Sim, eu li e concordo com os Termos de Uso do LinkJobs.</small>
+                                                            <small>Sim, eu li e concordo com os Termos de Uso do Pesquisadores.</small>
                                                         </div>
                                                     </div>
                                                 </div>

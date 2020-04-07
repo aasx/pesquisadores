@@ -9,7 +9,7 @@
                 <li><a href="#" title="">Fórum</a></li>
                 <li><a href="#" title="">Fale Conosco</a></li>
             </ul>
-            <p><img src="images/copy-icon2.png" alt="">Copyright 2019 - Universidade Presbiteriana Mackenzie</p>
+            <p><img src="images/copy-icon2.png" alt="">Copyright 2020 - Universidade Presbiteriana Mackenzie</p>
         </div>
     </div>
 </footer>
