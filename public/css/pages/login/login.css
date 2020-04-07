@@ -23,3 +23,7 @@
 .sign_in_sec h3:before {
     background-color: #d2ccff;
 }
+
+.signin-popup:before,.signin-popup:after {
+    background-color: transparent !important;
+}
