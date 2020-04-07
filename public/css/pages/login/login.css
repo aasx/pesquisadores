@@ -27,3 +27,8 @@
 .signin-popup:before,.signin-popup:after {
     background-color: transparent !important;
 }
+
+.signin-pop {
+    background-color: #c2e29d;
+    border-radius: 90px;
+}
