@@ -40,3 +40,8 @@
 #countryList li:hover {
     background-color: #c6daaf !important;
 }
+
+.checky-sec.st2 .fgt-sec input[type="checkbox"] + label span {
+    margin-top: 3px;
+    background-color: white;
+}
