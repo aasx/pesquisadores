@@ -5441,3 +5441,16 @@ header {
 .search-bar form button i {
 	color: #9dca6a;
 }
+
+.user-profy > a:hover {
+	background-color: #636f56;
+	color: #fff;
+}
+
+.badge-danger {
+	background-color: #728062;
+}
+
+.suggestion-usd > span i:hover {
+	background-color: #728062;
+}
