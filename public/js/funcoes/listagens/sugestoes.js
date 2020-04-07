@@ -26,6 +26,7 @@ $(document).ready(function () {
     setTimeout(function () {
         var idUserLogado = $('#id-logado').val();
         $('.add-amigo').on('click', function () {
+            alert('clique aqui');
             var idLogado = $('#id-logado').val();
             var idAmigo = $(this).attr('data-id-usuario');
             $('#id-amigo').val(idAmigo);
