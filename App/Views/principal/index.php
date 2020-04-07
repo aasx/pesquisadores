@@ -111,7 +111,7 @@
                                     <div class="user-profile">
                                         <div class="username-dt">
                                             <div class="usr-pic">
-                                                <div class="lds-facebook" style="background: #a81300;border-radius: 50%;margin-top: 2em;"><div></div><div></div><div></div></div>
+                                                <div class="lds-facebook" style="background: #0d6120;border-radius: 50%;margin-top: 2em;"><div></div><div></div><div></div></div>
                                             </div>
                                         </div>
                                         <div class="user-specs">
