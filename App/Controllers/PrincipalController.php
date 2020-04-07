@@ -136,7 +136,7 @@ class PrincipalController extends Controller {
                 <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                     <div class="company_profile_info">
                         <div class="company-up-info">
-                            <img src="/public/images/profile-default.png" alt="Foto do Usuário Solicitante">
+                            <img src="/public/uploads/fotoPerfil/profile-default.png" alt="Foto do Usuário Solicitante">
                             <h3>'.$row['nome_solicitado'].'</h3>
                             <h4>Profissão</h4>
                             <ul>
@@ -204,7 +204,7 @@ class PrincipalController extends Controller {
                 <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                     <div class="company_profile_info">
                         <div class="company-up-info card-item-amigos">
-                            <img src="/public/images/profile-default.png" alt="Foto do Usuário Solicitante">
+                            <img src="/public/uploads/fotoPerfil/profile-default.png" alt="Foto do Usuário Solicitante">
                             <h3>'.$row['nome_solicitante'].'</h3>
                             <h4>Profissão</h4>
                         </div>
@@ -253,7 +253,7 @@ class PrincipalController extends Controller {
             while($row = mysqli_fetch_assoc($result)) {
                 $row["listagem"] = '
                     <div class="user-profy">
-                        <img src="/public/images/profile-default.png" alt="" style="width: 57px;height: 57px;">
+                        <img src="/public/uploads/fotoPerfil/profile-default.png" alt="" style="width: 57px;height: 57px;">
                         <h3>'.$row['titulo'].'</h3>
                         <span>'.$row['profissao'].'</span>
                         <ul>
@@ -304,7 +304,7 @@ class PrincipalController extends Controller {
                 while($row = mysqli_fetch_assoc($result)) {
                     $row["listagem"] = '
 
-                    <li><a href="/principal/amigo/'.$row['id_requisitado'].'" title="'.$row['nome_requisitado'].'" alt="'.$row['nome_requisitado'].'"><img src="/public/images/profile-default.png" style="width: 70px;height: 70px;" alt=""></a></li>
+                    <li><a href="/principal/amigo/'.$row['id_requisitado'].'" title="'.$row['nome_requisitado'].'" alt="'.$row['nome_requisitado'].'"><img src="/public/uploads/fotoPerfil/profile-default.png" style="width: 70px;height: 70px;" alt=""></a></li>
                     ';
                     ?>
                     <?php
