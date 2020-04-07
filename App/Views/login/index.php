@@ -12,7 +12,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="cmp-info">
-                                <h3 class="text-center">Pesquisadores</h3>
+                                <h3 class="text-center" style="font-size: 1.75rem;color: #8a86a9;">Pesquisadores</h3>
                                 <hr>
                                 <img src="/public/images/logo2.png" alt="">
                             </div>
