@@ -93,7 +93,7 @@
                             <li><a href="/perfil/editar" title="">Editar meu Perfil</a></li>
 
                         </ul>
-                        <h3 class="tc"><a href="/login/sair" title=""><i class="la la-sign-out" style="color: #e44d3a;"></i> Sair</a></h3>
+                        <h3 class="tc"><a href="/login/sair" title=""><i class="la la-sign-out" style="color: #93d4b2;"></i> Sair</a></h3>
                     </div>
                 </div>
             </div>
