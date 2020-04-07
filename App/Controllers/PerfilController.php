@@ -237,7 +237,7 @@ class PerfilController extends Controller {
     public function salvarExperiencia() {
         if($oUser = Usuario::salvarExperiencia($_POST)){
 
-            header("Location: https://projeto-link-jobs.herokuapp.com/perfil/editar");
+            header("Location: https://app-pesquisadores.herokuapp.com/perfil/editar");
             $this->render('perfil/editar');
         }
 
@@ -247,7 +247,7 @@ class PerfilController extends Controller {
     public function salvarEducacao() {
         if($oUser = Usuario::salvarEducacao($_POST)){
 
-            header("Location: https://projeto-link-jobs.herokuapp.com/perfil/editar");
+            header("Location: https://app-pesquisadores.herokuapp.com/perfil/editar");
             $this->render('perfil/editar');
         }
 
@@ -257,7 +257,7 @@ class PerfilController extends Controller {
     public function salvarLocalizacao() {
         if($oUser = Usuario::salvarLocalizacao($_POST)){
 
-            header("Location: https://projeto-link-jobs.herokuapp.com/perfil/editar");
+            header("Location: https://app-pesquisadores.herokuapp.com/perfil/editar");
             $this->render('perfil/editar');
         }
 
@@ -267,7 +267,7 @@ class PerfilController extends Controller {
     public function salvarHabilidade() {
         if($oUser = Usuario::salvarHabilidade($_POST)){
 
-            header("Location: https://projeto-link-jobs.herokuapp.com/perfil/editar");
+            header("Location: https://app-pesquisadores.herokuapp.com/perfil/editar");
             $this->render('perfil/editar');
         }
 
@@ -277,7 +277,7 @@ class PerfilController extends Controller {
     public function salvarVaga() {
         if($oUser = Usuario::salvarVaga($_POST)){
 
-            header("Location: https://projeto-link-jobs.herokuapp.com/perfil/editar");
+            header("Location: https://app-pesquisadores.herokuapp.com/perfil/editar");
             $this->render('perfil/editar');
         }
 

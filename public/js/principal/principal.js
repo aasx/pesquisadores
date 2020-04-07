@@ -15,7 +15,7 @@ $(document).ready(function () {
                    timer: 1500
                });
                setTimeout(function () {
-                   window.location.href = "https://projeto-link-jobs.herokuapp.com/principal/";
+                   window.location.href = "https://app-pesquisadores.herokuapp.com/principal/";
                },1600);
            }
         });
@@ -35,7 +35,7 @@ $(document).ready(function () {
                     timer: 1500,
                 })
                 setTimeout(function () {
-                    window.location.href = "https://projeto-link-jobs.herokuapp.com/principal/";
+                    window.location.href = "https://app-pesquisadores.herokuapp.com/principal/";
                 },1600);
             }
         });

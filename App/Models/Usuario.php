@@ -141,7 +141,7 @@ class Usuario
                 "'".$idUsuario."','".$titulo."', '".$texto."'"
             );
 
-            header("Location: https://projeto-link-jobs.herokuapp.com/perfil/editar");
+            header("Location: https://app-pesquisadores.herokuapp.com/perfil/editar");
 
         }catch (\Exception $e){
             echo $e->getMessage();
@@ -165,7 +165,7 @@ class Usuario
                 "'".$idUsuario."','".$titulo."','".$anoInicio."','".$anoFim."','".$texto."'"
             );
 
-            header("Location: https://projeto-link-jobs.herokuapp.com/perfil/editar");
+            header("Location: https://app-pesquisadores.herokuapp.com/perfil/editar");
 
         }catch (\Exception $e){
             echo $e->getMessage();
@@ -187,7 +187,7 @@ class Usuario
                 "'".$idUsuario."','".$titulo."','".$texto."'"
             );
 
-            header("Location: https://projeto-link-jobs.herokuapp.com/perfil/editar");
+            header("Location: https://app-pesquisadores.herokuapp.com/perfil/editar");
 
         }catch (\Exception $e){
             echo $e->getMessage();
@@ -208,7 +208,7 @@ class Usuario
                 "'".$idUsuario."','".$habilidade."'"
             );
 
-            header("Location: https://projeto-link-jobs.herokuapp.com/perfil/editar");
+            header("Location: https://app-pesquisadores.herokuapp.com/perfil/editar");
 
         }catch (\Exception $e){
             echo $e->getMessage();
@@ -236,7 +236,7 @@ class Usuario
                 "'".$idUsuario."','".$titulo."','".$categoria."','".$habilidade."','".$preco."','".$integral."','".$descricao."','".$data."','".$nomeUsuario."'"
             );
 
-            header("Location: https://projeto-link-jobs.herokuapp.com/principal");
+            header("Location: https://app-pesquisadores.herokuapp.com/principal");
 
         }catch (\Exception $e){
             echo $e->getMessage();

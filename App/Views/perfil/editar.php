@@ -116,7 +116,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="salario" class="col-form-label">Salário:</label>
+                        <label for="salario" class="col-form-label">URL Currículo Lattes:</label>
                         <input type="text" class="form-control" id="salario" required>
                     </div>
                 </form>
