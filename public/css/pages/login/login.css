@@ -36,3 +36,7 @@
 .fgt-sec input[type="checkbox"] + label span:before {
     background-color: #aeabc3;
 }
+
+#countryList li:hover {
+    background-color: #c6daaf !important;
+}
