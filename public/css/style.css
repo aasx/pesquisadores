@@ -5431,3 +5431,13 @@ header {
 .view-more > a {
 	color: #839a68;
 }
+
+.alert-warning {
+	color: #636f56;
+	background-color: #c6daaf;
+	border-color: #b3cc96;
+}
+
+.search-bar form button i {
+	color: #9dca6a;
+}
