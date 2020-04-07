@@ -12,7 +12,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="cmp-info">
-                                <img src="/public/images/cm-main-img.png" alt="">
+                                <img src="/public/images/logo2.png" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6">
