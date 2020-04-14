@@ -17,6 +17,22 @@
         overflow: hidden !important;
         text-overflow: ellipsis !important;
     }
+
+    .post-project h3 {
+        float: left;
+        width: 100%;
+        background-color: #636f56 !important;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 20px 0;
+    }
+
+    .post-project-fields form ul li button.active {
+        background-color: #79965a !important;
+        color: #fff;
+    }
 </style>
 
 <!-- Modal Confirmação Excluir -->
