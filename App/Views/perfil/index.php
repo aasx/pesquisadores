@@ -87,7 +87,7 @@
                                             </li>
                                             <li>
                                                 <span>Seguidores</span>
-                                                <b>53K</b>
+                                                <b>12K</b>
                                             </li>
                                         </ul>
                                     </div>
@@ -103,52 +103,28 @@
                                             <img src="http://via.placeholder.com/35x35" alt="">
                                             <div class="sgt-text">
                                                 <h4>Jessica William</h4>
-                                                <span>Designer Gráfico</span>
+                                                <span>Pesquisador na Área</span>
                                             </div>
                                             <span><i class="la la-plus"></i></span>
                                         </div>
                                         <div class="suggestion-usd">
                                             <img src="http://via.placeholder.com/35x35" alt="">
                                             <div class="sgt-text">
-                                                <h4>John Doe</h4>
-                                                <span>Desenvolvedor PHP</span>
+                                                <h4>Carlos Navaes</h4>
+                                                <span>Coleta de Dados</span>
                                             </div>
                                             <span><i class="la la-plus"></i></span>
                                         </div>
                                         <div class="suggestion-usd">
                                             <img src="http://via.placeholder.com/35x35" alt="">
                                             <div class="sgt-text">
-                                                <h4>Felipe Camargo</h4>
-                                                <span>Desenvolverdor Java</span>
-                                            </div>
-                                            <span><i class="la la-plus"></i></span>
-                                        </div>
-                                        <div class="suggestion-usd">
-                                            <img src="http://via.placeholder.com/35x35" alt="">
-                                            <div class="sgt-text">
-                                                <h4>Bill Gates</h4>
-                                                <span>Desenvolvedor C & C++</span>
-                                            </div>
-                                            <span><i class="la la-plus"></i></span>
-                                        </div>
-                                        <div class="suggestion-usd">
-                                            <img src="http://via.placeholder.com/35x35" alt="">
-                                            <div class="sgt-text">
-                                                <h4>Jessica William</h4>
-                                                <span>Designer Gráfico</span>
-                                            </div>
-                                            <span><i class="la la-plus"></i></span>
-                                        </div>
-                                        <div class="suggestion-usd">
-                                            <img src="http://via.placeholder.com/35x35" alt="">
-                                            <div class="sgt-text">
-                                                <h4>John Doe</h4>
-                                                <span>Desenvolvedor PHP</span>
+                                                <h4>Felipe R.</h4>
+                                                <span>Desenvolvimento de Pesquisa</span>
                                             </div>
                                             <span><i class="la la-plus"></i></span>
                                         </div>
                                         <div class="view-more">
-                                            <a href="#" title="">Ver mais</a>
+                                            <a href="javascript:void(0)" title="">Ver mais</a>
                                         </div>
                                     </div>
                                 </div>

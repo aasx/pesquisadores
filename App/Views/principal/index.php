@@ -175,7 +175,7 @@
                                     <div class="post-st">
                                         <ul>
                                             <li><a class="post_project" href="#" title="">Postar um Projeto</a></li>
-                                            <li><a class="post-jb active" href="#" title="">Poste uma Vaga</a></li>
+                                            <li><a class="post-jb active" href="#" title="">Compartilhe uma Pesquisa</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -386,7 +386,7 @@
 
     <div class="post-popup job_post">
         <div class="post-project">
-            <h3>Postar uma Vaga</h3>
+            <h3>Compartilhar Pesquisa</h3>
             <div class="post-project-fields">
                 <form method="post" action="/perfil/salvarVaga">
                     <input type="hidden" name="id_usuario" value="<?php echo \App\Lib\Auth::usuario()->id; ?>">
@@ -433,7 +433,7 @@
                         </div>
                         <div class="col-lg-12">
                             <ul>
-                                <li><button class="active" type="submit" value="post">Postar</button></li>
+                                <li><button class="active" type="submit" value="post">Compartilhar Pesquisa</button></li>
                                 <li><a href="#" title="">Cancelar</a></li>
                             </ul>
                         </div>
