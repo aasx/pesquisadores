@@ -285,7 +285,7 @@ class PerfilController extends Controller {
     }
 
     public function buscarUsuario() {
-        $connect = mysqli_connect("remotemysql.com", "GQ4OpczpAV", "jt4ifMIloM", "GQ4OpczpAV");
+        $connect = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
         if(isset($_POST["query"]))
         {
             $output = '';
