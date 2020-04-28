@@ -260,13 +260,7 @@
                                     <h3><span class="nomeUser"></span> <span class="badge badge-danger chama-modal-editar-nome" style="cursor: pointer;font-size: 15px;"><i class="fa fa-pencil"></i></span></h3>
                                     <div class="star-descp">
                                         <span id="profissaoUser"></span>
-                                        <ul>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star-half-o"></i></li>
-                                        </ul>
+
 
                                     </div>
                                     <div class="tab-feed st2">

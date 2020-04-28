@@ -165,13 +165,7 @@
                                     <p>  </p>
                                     <div class="star-descp">
                                         <span><?php echo $aViewVar['aAmigo']['profissao']; ?></span>
-                                        <ul>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star"></i></li>
-                                            <li><i class="fa fa-star-half-o"></i></li>
-                                        </ul>
+
                                     </div>
                                     <div class="tab-feed">
                                         <ul>
