@@ -79,6 +79,12 @@
                             </a>
                         </li>
 
+			<li>
+                            <a href="/perfil/editar" title="">
+                                Editar Perfil
+                            </a>
+                        </li>
+
                         <li>
                             <div class="badge-notificacoes invisivel">
                                 <span class="badge badge-notificacoes-quantidade"></span>
