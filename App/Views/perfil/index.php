@@ -101,7 +101,7 @@
                                 </div>
                                 <div class="suggestions full-width">
                                     <div class="sd-title">
-                                        <h3>Sugestões</h3>
+                                        <h3>Você pode seguir estes usuários</h3>
                                         <i class="la la-ellipsis-v"></i>
                                     </div>
                                     <div class="suggestions-list">
