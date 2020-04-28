@@ -444,7 +444,7 @@
                                                     <li>
                                                         <a href="#"><i class="la la-heart"></i>Curtir</a>
                                                         <img src="images/liked-img.png" alt="">
-                                                        <span>25</span>
+
                                                     </li>
                                                     <li><a href="#" title="" class="com"><img src="images/com.png" alt=""> Comentarios 15</a></li>
                                                 </ul>
@@ -501,7 +501,7 @@
                                                     <li>
                                                         <a href="#"><i class="la la-heart"></i>Curtir</a>
                                                         <img src="images/liked-img.png" alt="">
-                                                        <span>25</span>
+
                                                     </li>
                                                     <li><a href="#" title="" class="com"><img src="images/com.png" alt=""> Comentarios 75</a></li>
                                                 </ul>
@@ -559,7 +559,7 @@
                                                     <li>
                                                         <a href="#"><i class="la la-heart"></i>Curtir</a>
                                                         <img src="images/liked-img.png" alt="">
-                                                        <span>25</span>
+
                                                     </li>
                                                     <li><a href="#" title="" class="com"><img src="images/com.png" alt=""> Comentarios 65</a></li>
                                                 </ul>
@@ -617,7 +617,7 @@
                                                     <li>
                                                         <a href="#"><i class="la la-heart"></i>Curtir</a>
                                                         <img src="images/liked-img.png" alt="">
-                                                        <span>25</span>
+
                                                     </li>
                                                     <li><a href="#" title="" class="com"><img src="images/com.png" alt=""> Comentarios 175</a></li>
                                                 </ul>
@@ -684,7 +684,7 @@
                                                     <li>
                                                         <a href="#"><i class="la la-heart"></i>Curtidas</a>
                                                         <img src="images/liked-img.png" alt="">
-                                                        <span>25</span>
+
                                                     </li>
                                                     <li><a href="#" title="" class="com"><img src="images/com.png" alt=""> Comentários 15</a></li>
                                                 </ul>
@@ -744,7 +744,7 @@
                                                     <li>
                                                         <a href="#"><i class="la la-heart"></i>Curtidas</a>
                                                         <img src="images/liked-img.png" alt="">
-                                                        <span>25</span>
+
                                                     </li>
                                                     <li><a href="#" title="" class="com"><img src="images/com.png" alt=""> Comentários 15</a></li>
                                                 </ul>
@@ -804,7 +804,7 @@
                                                     <li>
                                                         <a href="#"><i class="la la-heart"></i>Curtidas</a>
                                                         <img src="images/liked-img.png" alt="">
-                                                        <span>25</span>
+
                                                     </li>
                                                     <li><a href="#" title="" class="com"><img src="images/com.png" alt=""> Comentários 215</a></li>
                                                 </ul>
@@ -864,7 +864,7 @@
                                                     <li>
                                                         <a href="#"><i class="la la-heart"></i>Curtidas</a>
                                                         <img src="images/liked-img.png" alt="">
-                                                        <span>25</span>
+
                                                     </li>
                                                     <li><a href="#" title="" class="com"><img src="images/com.png" alt=""> Comentários 200</a></li>
                                                 </ul>

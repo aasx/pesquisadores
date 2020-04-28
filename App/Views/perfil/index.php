@@ -223,7 +223,7 @@
                                                             <li>
                                                                 <a href="#"><i class="la la-heart"></i>Curtir</a>
                                                                 <!-- <img src="/public/images/liked-img.png" alt=""> -->
-                                                                <span>25</span>
+
                                                             </li>
                                                             <li><a href="#" title="" class="com"><img src="/public/images/com.png" alt=""> Comentário 0</a></li>
                                                         </ul>
@@ -291,7 +291,7 @@
                                                                  <li>
                                                                      <a href="#"><i class="la la-heart"></i>Curtir</a>
                                                                      <img src="/public/images/liked-img.png" alt="">
-                                                                     <span>25</span>
+
                                                                  </li>
                                                                  <li><a href="#" title="" class="com"><img src="/public/images/com.png" alt=""> Comentário 15</a></li>
                                                              </ul>
