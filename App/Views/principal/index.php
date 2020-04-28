@@ -365,7 +365,7 @@
                         <div class="col-lg-12">
                             <input type="text" name="skills" placeholder="Habilidades">
                         </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-12" style="display: none;">
                             <div class="price-sec">
 
                                 <div class="price-br">
