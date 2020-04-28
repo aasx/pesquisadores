@@ -352,7 +352,7 @@
                         <div class="col-lg-12">
                             <input type="text" name="title" placeholder="Título">
                         </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-12" style="display: none;">
                             <div class="inp-field">
                                 <select>
                                     <option class="text-capitalize" val="Categorias">Categorias</option>
