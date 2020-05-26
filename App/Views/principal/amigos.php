@@ -137,7 +137,7 @@
                         <div class="col-lg-9 col-md-8 no-pd">
                             <div class="main-ws-sec">
                                 <div class="post-topbar">
-                                    <h3>Solicitações de Amizades</h3>
+                                    <h3>Novos Seguidores</h3>
                                 </div>
                                 <div class="posts-section">
                                     <div class="post-bar">
@@ -149,7 +149,7 @@
 
                                     </div>
                                     <div class="post-topbar">
-                                        <h3>Amigos</h3>
+                                        <h3>Seguidores</h3>
                                     </div>
                                     <div class="post-bar">
                                         <div class="companies-list">
