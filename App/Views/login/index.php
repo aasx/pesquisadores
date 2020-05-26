@@ -160,8 +160,8 @@
                                                     <div class="sn-field">
                                                         <select class="form-control" id="tipo-conta" name="tipo" required>
                                                             <option>Selecione o tipo de Conta...</option>
-                                                            <option value="GT">Grátis</option>
-                                                            <option value="PG">Paga</option>
+                                                            <option value="GT">Apenas Membros</option>
+                                                            <option value="PG">Pesquisador</option>
                                                         </select>
                                                     </div>
                                                 </div>
