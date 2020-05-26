@@ -129,7 +129,7 @@ class PrincipalController extends Controller {
         if(isset($_POST['idProprio'])) {
             $idLogado = $_POST['idProprio'];
             $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
-            $result = mysqli_query($conn, "SELECT * FROM amizade WHERE id_requisitado = '$idLogado' AND status = 0 GROUP BY id_solicitante");
+            $result = mysqli_query($conn, "SELECT * FROM amizade WHERE id_requisitado = '$idLogado' AND status = 0 GROUP BY id_requisitado");
 
             while($row = mysqli_fetch_assoc($result)) {
                 $row["listagem"] = '
