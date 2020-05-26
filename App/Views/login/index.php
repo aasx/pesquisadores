@@ -60,10 +60,10 @@
 
                                 </div>
                                 <div class="sign_in_sec" id="tab-2">
-                                    <div class="signup-tab invisivel">
+                                    <div class="signup-tab">
                                         <ul>
                                             <li data-tab="tab-3" class="current"><a href="#" title="">Usuário</a></li>
-                                            <li class="invisivel" data-tab="tab-4"><a href="#" title="">Empresa</a></li>
+                                            <li class="" data-tab="tab-4"><a href="#" title="">Empresa</a></li>
                                         </ul>
                                     </div>
                                     <div class="dff-tab current" id="tab-3">
