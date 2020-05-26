@@ -53,3 +53,10 @@
     border-radius: 25px !important;
     background-color: #e2ffc2;
 }
+
+.company_profile_info {
+    border-top: 2px solid #a9eac8 !important;
+    box-shadow: 0 4px 5px -5px black !important;
+    border-radius: 25px !important;
+    background-color: #ffffff;
+}
