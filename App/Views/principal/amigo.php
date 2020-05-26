@@ -40,7 +40,7 @@
                             </div>
                             <a href="/principal/amigos" title="">
                                 <span><img src="/public/images/icon4.png" alt=""></span>
-                                Amigos
+                                Seguidores
                             </a>
 
                         </li>

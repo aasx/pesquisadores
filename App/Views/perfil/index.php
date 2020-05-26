@@ -36,7 +36,7 @@
                             </div>
                             <a href="/principal/amigos" title="">
                                 <span><img src="/public/images/icon4.png" alt=""></span>
-                                Amigos
+                                Seguidores
                             </a>
 
                         </li>
@@ -163,7 +163,7 @@
                                                 <a class="#" href="#" title="" style="text-decoration: none !important;color: #b2b2b2;">
                                                     <span id="qtd-likes" class="badge badge-pill badge-danger" style="position: absolute;color: #FFFFFF;font-size: 14px;line-height: 0.98;padding-top: 0.4em;padding-bottom: 0.4em;margin-left: 74px;margin-top: -9px;">0</span>
                                                     <i class="la la-thumbs-o-up" style="font-size: 34px;"></i>
-                                                    <span>Recomendações</span>
+                                                    <span>Curtidas</span>
                                                 </a>
                                             </li>
                                         </ul>
