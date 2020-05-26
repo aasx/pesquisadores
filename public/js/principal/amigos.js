@@ -49,6 +49,9 @@ $(document).ready(function () {
 
 $(window).ready(function () {
     setTimeout(function () {
+        var userLogado = $('#id-logado').val();
+        var userLogado2 = $('#id-logado').val();
+        var userLogado3 = $('#id-logado').val();
         $('.aceitar-solicitacao').on('click', function () {
             var idAceitado = $(this).attr('data-id-usuario-solicitante');
             var nomeAceitado = $(this).attr('data-nome-usuario-solicitante');
