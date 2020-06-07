@@ -263,7 +263,7 @@
                         <div class="col-lg-">
                             <div class="main-ws-sec">
                                 <div class="user-tab-sec">
-                                    <h3><span class="nomeUser"></span> <span class="badge badge-danger chama-modal-editar-nome" style="cursor: pointer;font-size: 15px;"><button class="btn btn-success btn-sm">EDITAR INFORMAÇÕES</button></span></h3>
+                                    <h3><span class="nomeUser"></span> <span class="badge badge-danger chama-modal-editar-nome" style="cursor: pointer;font-size: 15px;"><button class="btn btn-editar btn-sm">EDITAR INFORMAÇÕES</button></span></h3>
                                     <div class="star-descp">
                                         <span id="profissaoUser"></span>
 
@@ -298,11 +298,11 @@
 
                                 <div class="product-feed-tab" id="info-dd">
                                     <div class="user-profile-ov">
-                                        <h3><a href="#" title="" class="overview-open link-visao-geral">Visão Geral</a> <a href="#" title="" class="overview-open link-visao-geral"><i class="fa fa-pencil"></i></a></h3>
+                                        <h3><a href="#" title="" class="overview-open link-visao-geral">Visão Geral</a> <a href="#" title="" class="overview-open link-visao-geral"><button class="btn btn-editar btn-sm">EDITAR INFORMAÇÕES</button></a></h3>
                                         <p id="content-visao-geral">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien ante, ultricies et imperdiet id, semper vitae lacus. Pellentesque a enim vitae ligula condimentum consequat ut in nulla</p>
                                     </div>
                                     <div class="user-profile-ov st2">
-                                        <h3><a href="#" title="" class="exp-bx-open">Experiência</a><a href="#" title="" class="exp-bx-open"><i class="fa fa-pencil"></i></a> <a href="#" title="" class="exp-bx-open"><i class="fa fa-plus-square"></i></a></h3>
+                                        <h3><a href="#" title="" class="exp-bx-open">Experiência</a><a href="#" title="" class="exp-bx-open"><button class="btn btn-editar btn-sm">EDITAR INFORMAÇÕES</button></a> <a href="#" title="" class="exp-bx-open"><i class="fa fa-plus-square"></i></a></h3>
 
                                         <?php
                                         if(!count($aViewVar['aListaExperiencia'])){
@@ -314,7 +314,7 @@
                                                 <?php
                                                 foreach($aViewVar['aListaExperiencia'] as $aExperiencia) {
                                                     ?>
-                                                    <h4><?php echo $aExperiencia['titulo']; ?> <a data-id-experiencia="<?php echo $aExperiencia['id']; ?>" title=""><i class="fa fa-pencil"></i></a></h4>
+                                                    <h4><?php echo $aExperiencia['titulo']; ?> <a data-id-experiencia="<?php echo $aExperiencia['id']; ?>" title=""><button class="btn btn-editar btn-sm">EDITAR INFORMAÇÕES</button></a></h4>
                                                        <p><?php echo $aExperiencia['texto']; ?></p>
 
                                                     <?php
@@ -326,7 +326,7 @@
                                         <p class="no-margin">  </p>
                                     </div>
                                     <div class="user-profile-ov">
-                                        <h3><a href="#" title="" class="ed-box-open">Educação</a> <a href="#" title="" class="ed-box-open"><i class="fa fa-pencil"></i></a> <a href="#" title=""><i class="fa fa-plus-square"></i></a></h3>
+                                        <h3><a href="#" title="" class="ed-box-open">Educação</a> <a href="#" title="" class="ed-box-open"><button class="btn btn-editar btn-sm">EDITAR INFORMAÇÕES</button></a> <a href="#" title=""><i class="fa fa-plus-square"></i></a></h3>
 
                                         <?php
                                         if(!count($aViewVar['aListaEducacao'])){
@@ -338,7 +338,7 @@
                                             <?php
                                             foreach($aViewVar['aListaEducacao'] as $aEducacao) {
                                                 ?>
-                                                <h4><?php echo $aEducacao['titulo']; ?> <a data-id-educacao="<?php echo $aEducacao['id']; ?>" title=""><i class="fa fa-pencil"></i></a></h4>
+                                                <h4><?php echo $aEducacao['titulo']; ?> <a data-id-educacao="<?php echo $aEducacao['id']; ?>" title=""><button class="btn btn-editar btn-sm">EDITAR INFORMAÇÕES</button></a></h4>
                                                 <span> <?php echo $aEducacao['ano_inicio']; ?> - <?php echo $aEducacao['ano_fim']; ?> </span>
                                                 <p><?php echo $aEducacao['texto']; ?></p>
 
@@ -350,7 +350,7 @@
                                         ?>
                                     </div>
                                     <div class="user-profile-ov">
-                                        <h3><a href="#" title="" class="lct-box-open">Localização</a> <a href="#" title="" class="lct-box-open"><i class="fa fa-pencil"></i></a> <a href="#" title=""><i class="fa fa-plus-square"></i></a></h3>
+                                        <h3><a href="#" title="" class="lct-box-open">Localização</a> <a href="#" title="" class="lct-box-open"><button class="btn btn-editar btn-sm">EDITAR INFORMAÇÕES</button></a> <a href="#" title=""><i class="fa fa-plus-square"></i></a></h3>
                                         <?php
                                         if(!count($aViewVar['aListaLocalizacao'])){
                                             ?>
@@ -361,7 +361,7 @@
                                             <?php
                                             foreach($aViewVar['aListaLocalizacao'] as $aLocalizacao) {
                                                 ?>
-                                                <h4><?php echo $aLocalizacao['titulo']; ?> <a data-id-localizacao="<?php echo $aLocalizacao['id']; ?>" title=""><i class="fa fa-pencil"></i></a></h4>
+                                                <h4><?php echo $aLocalizacao['titulo']; ?> <a data-id-localizacao="<?php echo $aLocalizacao['id']; ?>" title=""><button class="btn btn-editar btn-sm">EDITAR INFORMAÇÕES</button></a></h4>
                                                 <p><?php echo $aLocalizacao['texto']; ?></p>
 
                                                 <?php
@@ -372,7 +372,7 @@
                                         ?>
                                     </div>
                                     <div class="user-profile-ov">
-                                        <h3><a href="#" title="" class="skills-open">Habilidades</a> <a href="#" title="" class="skills-open"><i class="fa fa-pencil"></i></a> <a href="#"><i class="fa fa-plus-square"></i></a></h3>
+                                        <h3><a href="#" title="" class="skills-open">Habilidades</a> <a href="#" title="" class="skills-open"><button class="btn btn-editar btn-sm">EDITAR INFORMAÇÕES</button></a> <a href="#"><i class="fa fa-plus-square"></i></a></h3>
                                         <ul>
                                             <?php
                                             if(!count($aViewVar['aListaHabilidades'])){

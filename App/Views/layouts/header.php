@@ -80,4 +80,17 @@
         overflow: hidden !important;
         text-overflow: ellipsis !important;
     }
+
+    .btn-editar{
+        background-color: #728062 !important;
+        color: #FFFFFF !important;
+        transition: all 1s !important;
+    }
+
+    .btn-editar:hover{
+        box-shadow: 0 4px 20px 0px black !important;
+        transition: all 1s !important;
+    }
+
+
 </style>
