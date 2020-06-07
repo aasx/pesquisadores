@@ -146,7 +146,7 @@
                                                 </div>
                                                 <div class="col-lg-12 no-pdd">
                                                     <div class="sn-field">
-                                                        <input type="text" name="salario" placeholder="URL Corrículo Lattes" required>
+                                                        <input type="text" name="salario" placeholder="URL Currículo Lattes" required>
                                                         <i class="la la-globe"></i>
                                                     </div>
                                                 </div>
