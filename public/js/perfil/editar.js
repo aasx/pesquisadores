@@ -169,4 +169,31 @@ $(document).ready(function () {
             },100);
         });
     });
+
+    //contagem de seguidores na tabela amizade
+    $.ajax({
+        url:"/principal/getTotalSeguidoresUsuarioLogado/",
+        method:"POST",
+        data:{perfil: 1},
+        success:function(n){
+            var qtdSeguidores = n.seguidores;
+
+            if(qtdSeguidores > 0) {
+                $('.qtdSeguidoresUser').text(qtdSeguidores);
+            }
+        }
+    });
+
+    $.ajax({
+        url:"/principal/getTotalSeguidoresVoltaUsuarioLogado/",
+        method:"POST",
+        data:{perfil: 1},
+        success:function(n){
+            var qtdSeguidoresVolta = n.seguidoresVolta;
+
+            if(qtdSeguidoresVolta > 0) {
+                $('.seguindoVolta').text(qtdSeguidoresVolta);
+            }
+        }
+    });
 });
