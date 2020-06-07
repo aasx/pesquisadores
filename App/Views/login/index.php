@@ -99,7 +99,7 @@
                                                 </div>
                                                 <div class="col-lg-12 no-pdd">
                                                     <div class="sn-field">
-                                                        <input type="text" name="inicio_trabalho" placeholder="Quando Iniciou na Area" required>
+                                                        <input type="text" name="inicio_trabalho" placeholder="Quando Iniciou na Area">
                                                         <i class="la la-globe"></i>
                                                     </div>
                                                 </div>
