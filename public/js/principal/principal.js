@@ -135,4 +135,20 @@ $(document).ready(function () {
             }
         }
     });
+
+
+    //contagem de seguidores na tabela amizade
+    $.ajax({
+        url:"/principal/getTotalSeguidoresUsuarioLogado/",
+        method:"POST",
+        data:{perfil: idLogadoFoto},
+        success:function(n){
+            var qtdSeguidores = n.seguidores;
+
+            if(qtdSeguidores > 0) {
+                $('.qtdSeguidoresUser').text(qtdSeguidores);
+            }
+        }
+    });
+
 });

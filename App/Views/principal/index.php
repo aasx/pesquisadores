@@ -148,7 +148,7 @@
                                         </li>
                                         <li>
                                             <h4>Seguidores</h4>
-                                            <span>53K</span>
+                                            <span class="qtdSeguidoresUser">0</span>
                                         </li>
                                         <li>
                                             <a href="/perfil/" title="">Ver Perfil</a>

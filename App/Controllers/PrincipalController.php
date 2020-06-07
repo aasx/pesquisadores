@@ -315,4 +315,25 @@ class PrincipalController extends Controller {
             }
         }
     }
+
+    public function getTotalSeguidoresUsuarioLogado() {
+        if(isset($_POST['perfil'])) {
+
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
+
+            $result = mysqli_query($conn, "SELECT COUNT(id_solicitante) AS totalSeguindo FROM amizade");
+
+            if (mysqli_num_rows($result) > 0) {
+                while($row = mysqli_fetch_assoc($result)) {
+                    header('Content-Type: application/json');
+                    echo json_encode(array('seguidores'=> $row['totalSeguindo']));
+                }
+            } else {
+                header('Content-Type: application/json');
+                echo json_encode(array('seguidores'=> '0'));
+            }
+        } else {
+            $this->render('error/usuario');
+        }
+    }
 }

@@ -233,7 +233,7 @@
                                             </li>
                                             <li>
                                                 <span>Seguidores</span>
-                                                <b>53K</b>
+                                                <b class="qtdSeguidoresUser">0</b>
                                             </li>
                                         </ul>
                                     </div>
