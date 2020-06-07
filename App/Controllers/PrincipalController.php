@@ -321,7 +321,7 @@ class PrincipalController extends Controller {
 
             $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
-            $result = mysqli_query($conn, "SELECT COUNT(id_solicitante) AS totalSeguindo FROM amizade");
+            $result = mysqli_query($conn, "SELECT COUNT(id_solicitante) AS totalSeguindo FROM amizade WHERE status = '0'");
 
             if (mysqli_num_rows($result) > 0) {
                 while($row = mysqli_fetch_assoc($result)) {
@@ -331,6 +331,27 @@ class PrincipalController extends Controller {
             } else {
                 header('Content-Type: application/json');
                 echo json_encode(array('seguidores'=> '0'));
+            }
+        } else {
+            $this->render('error/usuario');
+        }
+    }
+
+    public function getTotalSeguidoresVoltaUsuarioLogado() {
+        if(isset($_POST['perfil'])) {
+
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
+
+            $result = mysqli_query($conn, "SELECT COUNT(id_solicitante) AS totalSeguindo FROM amizade WHERE status = '1'");
+
+            if (mysqli_num_rows($result) > 0) {
+                while($row = mysqli_fetch_assoc($result)) {
+                    header('Content-Type: application/json');
+                    echo json_encode(array('seguidoresVolta'=> $row['totalSeguindo']));
+                }
+            } else {
+                header('Content-Type: application/json');
+                echo json_encode(array('seguidoresVolta'=> '0'));
             }
         } else {
             $this->render('error/usuario');

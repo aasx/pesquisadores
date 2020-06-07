@@ -151,4 +151,17 @@ $(document).ready(function () {
         }
     });
 
+    $.ajax({
+        url:"/principal/getTotalSeguidoresVoltaUsuarioLogado/",
+        method:"POST",
+        data:{perfil: idLogadoFoto},
+        success:function(n){
+            var qtdSeguidoresVolta = n.seguidoresVolta;
+
+            if(qtdSeguidoresVolta > 0) {
+                $('.seguindoVolta').text(qtdSeguidoresVolta);
+            }
+        }
+    });
+
 });

@@ -148,7 +148,7 @@
                                         </li>
                                         <li>
                                             <h4>Seguidores</h4>
-                                            <span>0</span>
+                                            <span class="seguindoVolta">0</span>
                                         </li>
                                         <li>
                                             <a href="/perfil/" title="">Ver Perfil</a>

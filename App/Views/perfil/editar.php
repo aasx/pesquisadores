@@ -233,7 +233,7 @@
                                             </li>
                                             <li>
                                                 <span>Seguidores</span>
-                                                <b>0</b>
+                                                <b class="seguindoVolta">0</b>
                                             </li>
                                         </ul>
                                     </div>
