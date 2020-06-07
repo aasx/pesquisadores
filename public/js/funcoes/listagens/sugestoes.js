@@ -47,7 +47,7 @@ $(document).ready(function () {
                         Swal.fire({
                             position: 'center',
                             type: 'success',
-                            title: 'Solicitação de Amizade enviada!',
+                            title: 'Agora você segue este usuário!',
                             showConfirmButton: false,
                             timer: 1500
                         });
@@ -77,7 +77,7 @@ $(document).ready(function () {
                         Swal.fire({
                             position: 'center',
                             type: 'success',
-                            title: 'Solicitação de Amizade enviada!',
+                            title: 'Agora você segue este usuário!',
                             showConfirmButton: false,
                             timer: 1500
                         });
