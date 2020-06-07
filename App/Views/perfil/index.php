@@ -89,11 +89,11 @@
                                         <ul class="flw-status">
                                             <li>
                                                 <span>Seguindo</span>
-                                                <b>2348</b>
+                                                <b class="qtdSeguidoresUser">0</b>
                                             </li>
                                             <li>
                                                 <span>Seguidores</span>
-                                                <b class="qtdSeguidoresUser">0</b>
+                                                <b>0</b>
                                             </li>
                                         </ul>
                                     </div>

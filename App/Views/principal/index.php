@@ -144,11 +144,11 @@
                                     <ul class="user-fw-status">
                                         <li>
                                             <h4>Seguindo</h4>
-                                            <span>2348</span>
+                                            <span class="qtdSeguidoresUser">0</span>
                                         </li>
                                         <li>
                                             <h4>Seguidores</h4>
-                                            <span class="qtdSeguidoresUser">0</span>
+                                            <span>0</span>
                                         </li>
                                         <li>
                                             <a href="/perfil/" title="">Ver Perfil</a>
