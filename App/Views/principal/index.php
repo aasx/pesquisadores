@@ -211,7 +211,7 @@
                                                     <ul class="ed-options">
                                                         <li class="li-editar-vaga" data-id-vaga="<?php echo $aListaVaga['id']; ?>" data-id-usuario-vaga="<?php echo $aListaVaga['id_usuario']; ?>" data-titulo-vaga="<?php echo $aListaVaga['titulo']; ?>" data-categoria-vaga="<?php echo $aListaVaga['categoria']; ?>" data-habilidade-vaga="<?php echo $aListaVaga['habilidade']; ?>" data-preco-vaga="<?php echo $aListaVaga['preco']; ?>" data-integral-vaga="<?php echo $aListaVaga['integral']; ?>" data-descricao-vaga="<?php echo $aListaVaga['descricao']; ?>"><a href="#" title="">Editar esta postagem</a></li>
                                                         <li class="li-excluir-vaga" data-id-vaga="<?php echo $aListaVaga['id']; ?>" data-id-usuario-vaga="<?php echo $aListaVaga['id_usuario']; ?>" data-titulo-vaga="<?php echo $aListaVaga['titulo']; ?>"><a href="#" title="">Excluir postagem</a></li>
-                                                        <li class="li-esconder-vaga" data-id-vaga="<?php echo $aListaVaga['id']; ?>" data-id-usuario-vaga="<?php echo $aListaVaga['id_usuario']; ?>" data-titulo-vaga="<?php echo $aListaVaga['titulo']; ?>"><a href="#" title="">Esconder</a></li>
+                                                        <li class="li-esconder-vaga" data-id-vaga="<?php echo $aListaVaga['id']; ?>" data-id-usuario-vaga="<?php echo $aListaVaga['id_usuario']; ?>" data-titulo-vaga="<?php echo $aListaVaga['titulo']; ?>"></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -265,7 +265,7 @@
                                                     <li><a href="#" title="">Não foi Salvo</a></li>
                                                     <li><a href="#" title="">Liberar</a></li>
                                                     <li><a href="#" title="">Fechar</a></li>
-                                                    <li><a href="#" title="">Esconder</a></li>
+                                                    <li></li>
                                                 </ul>
                                             </div>
                                         </div>
