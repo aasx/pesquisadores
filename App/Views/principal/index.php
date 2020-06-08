@@ -402,39 +402,6 @@
                             <input type="text" name="titulo" placeholder="Título">
                         </div>
                         <div class="col-lg-12">
-                            <div class="inp-field">
-                                <select name="categoria">
-                                    <option class="text-capitalize" val="Desenvolvimento de Pesquisa">Desenvolvimento de Pesquisa</option>
-                                    <option class="text-capitalize" val="Grupo de Pesquisa">Grupo de Pesquisa</option>
-                                    <option class="text-capitalize" val="Pesquisa de Campo">Pesquisa de Campo</option>
-                                    <option class="text-capitalize" val="Pesquisa de Mercado">Pesquisa de Mercado</option>
-                                    <option class="text-capitalize" val="Pesquisa na Area">Pesquisa na Área</option>
-                                    <option class="text-capitalize" val="Pesquisa e Desenvolvimento">Pesquisa e Desenvolvimento</option>
-                                    <option class="text-capitalize" val="Projeto de Pesquisa">Projeto de Pesquisa</option>
-                                    <option class="text-capitalize" val="Analise de Dados">Análise de Dados</option>
-                                    <option class="text-capitalize" val="Coleta de Dados">Coleta de Dados</option>
-                                    <option class="text-capitalize" val="Projeto de Iniciacao">Projeto de Iniciação</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <input type="text" name="habilidade" placeholder="Habilidades">
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="price-br">
-                                <input type="text" name="preco" placeholder="Preço">
-                                <i class="la la-dollar"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="inp-field">
-                                <select name="integral">
-                                    <option class="text-capitalize" val="Integral">Integral</option>
-                                    <option class="text-capitalize" val="Meio ">Meio Período</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
                             <textarea name="descricao" placeholder="Descrição"></textarea>
                         </div>
                         <div class="col-lg-12">
