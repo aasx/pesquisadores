@@ -225,14 +225,6 @@
                                             <div class="job_descp">
                                                 <h3><?php echo $aListaVaga['titulo']; ?></h3>
                                                 <p><?php echo $aListaVaga['descricao']; ?></p>
-                                                <ul class="job-dt">
-                                                    <li><a href="#" title=""><?php echo $aListaVaga['integral']; ?></a></li>
-                                                    <li><span>R$ <?php echo $aListaVaga['preco']; ?> / hr</span></li>
-                                                </ul>
-
-                                                <ul class="skill-tags">
-                                                    <li><a href="#" title=""><?php echo $aListaVaga['habilidade']; ?></a></li>
-                                                </ul>
                                             </div>
                                             <div class="job-status-bar">
                                                 <ul class="like-com">
