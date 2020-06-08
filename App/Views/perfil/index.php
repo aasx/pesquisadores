@@ -150,7 +150,7 @@
                                             <li data-tab="feed-dd" class="active">
                                                 <a href="#" title="">
                                                     <img src="/public/images/ic1.png" alt="">
-                                                    <span>Vagas</span>
+                                                    <span>Publicações</span>
                                                 </a>
                                             </li>
                                             <li data-tab="info-dd">
