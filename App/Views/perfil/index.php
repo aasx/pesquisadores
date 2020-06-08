@@ -216,7 +216,7 @@
                                                     <div class="job-status-bar">
                                                         <ul class="like-com">
                                                             <li>
-                                                                <a href="#"><i class="la la-heart"></i>Curtir</a>
+                                                                <a href="#"><i class="la la-heart"></i>Recomendar <i><?php echo $aListaVaga['nomeUsuario']; ?></i></a>
                                                                 <!-- <img src="/public/images/liked-img.png" alt=""> -->
 
                                                             </li>
