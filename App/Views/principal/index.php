@@ -220,10 +220,7 @@
                                                     <li><img src="/public/images/icon8.png" alt=""><span><?php echo $aListaVaga['categoria']; ?></span></li>
                                                     <li><img src="/public/images/icon9.png" alt=""><span>Brasil</span></li>
                                                 </ul>
-                                                <ul class="bk-links">
-                                                    <li><a href="#" title=""><i class="la la-bookmark"></i></a></li>
-                                                    <li><a href="#" title=""><i class="la la-envelope"></i></a></li>
-                                                </ul>
+
                                             </div>
                                             <div class="job_descp">
                                                 <h3><?php echo $aListaVaga['titulo']; ?></h3>
@@ -285,10 +282,7 @@
                                                 <li><img src="/public/images/icon8.png" alt=""><span>Codificador Épico</span></li>
                                                 <li><img src="/public/images/icon9.png" alt=""><span>India</span></li>
                                             </ul>
-                                            <ul class="bk-links">
-                                                <li><a href="#" title=""><i class="la la-bookmark"></i></a></li>
-                                                <li><a href="#" title=""><i class="la la-envelope"></i></a></li>
-                                            </ul>
+
                                         </div>
                                         <div class="job_descp">
                                             <h3>Desenvolverdor Wordpress Senior</h3>

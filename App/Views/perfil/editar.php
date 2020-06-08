@@ -425,10 +425,7 @@
                                                     <li><img src="images/icon8.png" alt=""><span>Codificador Épico</span></li>
                                                     <li><img src="images/icon9.png" alt=""><span>India</span></li>
                                                 </ul>
-                                                <ul class="bk-links">
-                                                    <li><a href="#" title=""><i class="la la-bookmark"></i></a></li>
-                                                    <li><a href="#" title=""><i class="la la-envelope"></i></a></li>
-                                                </ul>
+
                                             </div>
                                             <div class="job_descp">
                                                 <h3>Desenvolvedor Wordpress Senior</h3>
@@ -482,10 +479,7 @@
                                                     <li><img src="images/icon8.png" alt=""><span>Codificador Épico</span></li>
                                                     <li><img src="images/icon9.png" alt=""><span>India</span></li>
                                                 </ul>
-                                                <ul class="bk-links">
-                                                    <li><a href="#" title=""><i class="la la-bookmark"></i></a></li>
-                                                    <li><a href="#" title=""><i class="la la-envelope"></i></a></li>
-                                                </ul>
+
                                             </div>
                                             <div class="job_descp">
                                                 <h3> Desenvolvedor Wordpress Senior</h3>
@@ -539,10 +533,7 @@
                                                     <li><img src="images/icon8.png" alt=""><span>Codificador Épico</span></li>
                                                     <li><img src="images/icon9.png" alt=""><span>India</span></li>
                                                 </ul>
-                                                <ul class="bk-links">
-                                                    <li><a href="#" title=""><i class="la la-bookmark"></i></a></li>
-                                                    <li><a href="#" title=""><i class="la la-envelope"></i></a></li>
-                                                </ul>
+
                                             </div>
                                             <div class="job_descp">
                                                 <h3>Senior Wordpress Developer</h3>
@@ -597,10 +588,7 @@
                                                     <li><img src="images/icon8.png" alt=""><span>Codificador Épico</span></li>
                                                     <li><img src="images/icon9.png" alt=""><span>India</span></li>
                                                 </ul>
-                                                <ul class="bk-links">
-                                                    <li><a href="#" title=""><i class="la la-bookmark"></i></a></li>
-                                                    <li><a href="#" title=""><i class="la la-envelope"></i></a></li>
-                                                </ul>
+
                                             </div>
                                             <div class="job_descp">
 
