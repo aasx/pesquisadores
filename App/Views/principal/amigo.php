@@ -197,7 +197,7 @@
                                             <li id="li-do-amigo" data-tab="feed-dd">
                                                 <a data-id-usuario="<?php echo $aViewVar['aAmigo']['id']; ?>" data-nome-usuario="<?php echo $aViewVar['aAmigo']['titulo']; ?>" class="add-amigo-perfil" title="" style="text-decoration: none !important;color: #b2b2b2;cursor: pointer;">
                                                     <i class="la la-user-plus" style="font-size: 34px;"></i>
-                                                    <span>Adicionar Amigo</span>
+                                                    <span>Seguir <i><?php echo $aViewVar['aAmigo']['titulo']; ?></i></span>
                                                 </a>
                                             </li>
                                         </ul>
