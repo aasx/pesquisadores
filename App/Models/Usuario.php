@@ -399,7 +399,7 @@ class Usuario
             if($id) {
                 // Faz a consulta
                 $query = $db->query(
-                    "SELECT * FROM vaga, DATE_FORMAT(data_hora, \"%d/%m/%Y\") AS data_hora WHERE id_usuario = '".$id."' ORDER BY id DESC"
+                    "SELECT vaga.*, DATE_FORMAT(vaga.dataHora, \"%d/%m/%Y às %H:%i\") AS datah FROM vaga WHERE id_usuario = '".$id."' ORDER BY id DESC"
                 );
 
                 return $query->fetchAll();

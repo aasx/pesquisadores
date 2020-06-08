@@ -203,7 +203,7 @@
                                                     <img src="http://via.placeholder.com/50x50" alt="">
                                                     <div class="usy-name">
                                                         <h3><?php echo $aListaVaga['nomeUsuario']; ?></h3>
-                                                        <span><img src="/public/images/clock.png" alt=""><?php echo $aListaVaga['dataHora']; ?></span>
+                                                        <span><img src="/public/images/clock.png" alt=""><?php echo $aListaVaga['datah']; ?></span>
                                                     </div>
                                                 </div>
                                                 <div class="ed-opts">
