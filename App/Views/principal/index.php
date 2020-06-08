@@ -180,8 +180,8 @@
                                     </div>
                                     <div class="post-st">
                                         <ul>
-                                            <li><a class="post_project" href="#" title="">Postar um Projeto</a></li>
-                                            <li><a class="post-jb active" href="#" title="">Compartilhe uma Pesquisa</a></li>
+                                            <li class="d-none hidden"><a class="post_project" href="#" title="">Postar um Projeto</a></li>
+                                            <li><a class="post-jb active" href="#" title="">Compartilhar Publicação</a></li>
                                         </ul>
                                     </div>
                                 </div>
