@@ -105,32 +105,11 @@
                                         <i class="la la-ellipsis-v"></i>
                                     </div>
                                     <div class="suggestions-list">
-                                        <div class="suggestion-usd">
-                                            <img src="http://via.placeholder.com/35x35" alt="">
-                                            <div class="sgt-text">
-                                                <h4>Jessica William</h4>
-                                                <span>Pesquisador na Área</span>
-                                            </div>
-                                            <span><i class="la la-plus"></i></span>
-                                        </div>
-                                        <div class="suggestion-usd">
-                                            <img src="http://via.placeholder.com/35x35" alt="">
-                                            <div class="sgt-text">
-                                                <h4>Carlos Navaes</h4>
-                                                <span>Coleta de Dados</span>
-                                            </div>
-                                            <span><i class="la la-plus"></i></span>
-                                        </div>
-                                        <div class="suggestion-usd">
-                                            <img src="http://via.placeholder.com/35x35" alt="">
-                                            <div class="sgt-text">
-                                                <h4>Felipe R.</h4>
-                                                <span>Desenvolvimento de Pesquisa</span>
-                                            </div>
-                                            <span><i class="la la-plus"></i></span>
+                                        <div id="content-sugestoes" style="text-align: center;">
+                                            <div class="lds-facebook"><div></div><div></div><div></div></div>
                                         </div>
                                         <div class="view-more">
-                                            <a href="javascript:void(0)" title="">Ver mais</a>
+                                            <a href="#" title="">Ver Mais</a>
                                         </div>
                                     </div>
                                 </div>
