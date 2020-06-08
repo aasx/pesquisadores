@@ -676,7 +676,7 @@
                                             <div class="job-status-bar">
                                                 <ul class="like-com">
                                                     <li>
-                                                        <a href="#"><i class="la la-heart"></i>Curtidas</a>
+                                                        <a href="#"><i class="la la-heart"></i>Recomendações</a>
                                                         <img src="images/liked-img.png" alt="">
 
                                                     </li>
@@ -736,7 +736,7 @@
                                             <div class="job-status-bar">
                                                 <ul class="like-com">
                                                     <li>
-                                                        <a href="#"><i class="la la-heart"></i>Curtidas</a>
+                                                        <a href="#"><i class="la la-heart"></i>Recomendações</a>
                                                         <img src="images/liked-img.png" alt="">
 
                                                     </li>
@@ -796,7 +796,7 @@
                                             <div class="job-status-bar">
                                                 <ul class="like-com">
                                                     <li>
-                                                        <a href="#"><i class="la la-heart"></i>Curtidas</a>
+                                                        <a href="#"><i class="la la-heart"></i>Recomendações</a>
                                                         <img src="images/liked-img.png" alt="">
 
                                                     </li>
@@ -856,7 +856,7 @@
                                             <div class="job-status-bar">
                                                 <ul class="like-com">
                                                     <li>
-                                                        <a href="#"><i class="la la-heart"></i>Curtidas</a>
+                                                        <a href="#"><i class="la la-heart"></i>Recomendações</a>
                                                         <img src="images/liked-img.png" alt="">
 
                                                     </li>
