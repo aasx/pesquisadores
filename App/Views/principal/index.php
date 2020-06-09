@@ -238,11 +238,13 @@
                                                 </ul>
                                                 <a><i class="la la-eye"></i>Visualizações 0</a>
                                                 <br>
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <p class="text-muted small">
-                                                            <?php echo $aListaVaga['nomeUsuario']; ?>:&nbsp;<?php echo $aListaVaga['comentario']; ?>
-                                                        </p>
+                                                <div class="col-md-2" style="display: flow-root;margin-top: 1.5em;">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <p class="text-muted small">
+                                                                <?php echo $aListaVaga['nomeUsuario']; ?>:&nbsp;<?php echo $aListaVaga['comentario']; ?>
+                                                            </p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <br>
