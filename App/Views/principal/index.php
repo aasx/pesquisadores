@@ -169,7 +169,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-8 no-pd">
@@ -238,6 +237,14 @@
                                                     </li>
                                                 </ul>
                                                 <a><i class="la la-eye"></i>Visualizações 0</a>
+                                                <br>
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <p class="text-muted small">
+                                                            <?php echo $aListaVaga['nomeUsuario']; ?>:&nbsp;<?php echo $aListaVaga['comentario']; ?>
+                                                        </p>
+                                                    </div>
+                                                </div>
                                                 <br>
                                                 <form action="/principal/comentar" method="post" class="mr-3 d-none form-comentario" form-id="<?php echo $aListaVaga['id']; ?>">
                                                     <input type="hidden" name="id_postagem" value="<?php echo $aListaVaga['id']; ?>">
