@@ -238,7 +238,7 @@
                                                 </ul>
                                                 <a><i class="la la-eye"></i>Visualizações 0</a>
                                                 <br>
-                                                <div class="col-md-2" style="display: flow-root;margin-top: 1.5em;">
+                                                <div class="col-md-12" style="display: flow-root;margin-top: 1.5em;">
                                                     <div class="card">
                                                         <div class="card-body">
                                                             <p class="text-muted small">
