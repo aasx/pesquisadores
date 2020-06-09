@@ -51,4 +51,14 @@ $(document).ready(function () {
             }
         });
     });
+
+
+    //COMENTARIO
+    $('.comentar').on('click', function () {
+        var idPublicacao = $(this).attr('data-id-postagem');
+        var idUser = $('#id-logado').val();
+
+        $('.form-comentario[form-id="'+idPublicacao+'"]').removeClass('d-none');
+
+    });
 });
