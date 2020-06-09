@@ -233,9 +233,17 @@
                                                         <!-- <img src="/public/images/liked-img.png" alt=""> -->
 
                                                     </li>
-                                                    <li><a href="#" title="" class="com"><i class="la la-comments-o"></i> Comentário</a></li>
+                                                    <li>
+                                                        <a href="javascript:void(0)" title="" class="comentar"><i class="la la-comments-o"></i> Comentário</a>
+                                                    </li>
                                                 </ul>
                                                 <a><i class="la la-eye"></i>Visualizações 0</a>
+                                                <hr>
+                                                <form>
+                                                    <div class="form-group">
+                                                        <textarea class="form-control" rows="3"></textarea>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
                                         <?php
