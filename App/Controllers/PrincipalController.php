@@ -385,25 +385,20 @@ class PrincipalController extends Controller {
     }
 
     public function comentar() {
-        if(isset($_POST['idUser']) && isset($_POST['idPublicacao'])) {
-            $idUser = $_POST['idUser'];
-            $idPublicacao = $_POST['idPublicacao'];
+        if(isset($_POST['id_usuario']) && isset($_POST['id_postagem']) && isset($_POST['comentario'])) {
+            $idUser = $_POST['id_usuario'];
+            $idPublicacao = $_POST['id_postagem'];
+            $comentario = $_POST['comentario'];
 
             $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
-            $result = mysqli_query($conn, "SELECT * FROM curtidas WHERE id_publicacao = '".$idPublicacao."' AND id_user = '".$idUser."'");
+            mysqli_query($conn, "INSERT INTO comentarios (id_postagem, id_usuario, comentario) VALUES ('$idPublicacao', '$idUser', '$comentario')");
 
-            if (mysqli_num_rows($result) > 0) {
-                while($row = mysqli_fetch_assoc($result)) {
-                    mysqli_query($conn, "DELETE FROM curtidas WHERE id_user = '".$idUser."' AND id_publicacao = '".$idPublicacao."'");
-                    header('Content-Type: application/json');
-                    echo json_encode(array('curtir'=> '0', 'pb' => $idPublicacao));
-                }
-            } else {
-                mysqli_query($conn, "INSERT INTO curtidas (id_user, id_publicacao) VALUES ('".$idUser."', '".$idPublicacao."')");
-                header('Content-Type: application/json');
-                echo json_encode(array('curtir'=> '1', 'pb' => $idPublicacao));
-            }
+            sleep(1);
+
+            header("Location: /principal/index");
+            exit();
+
         } else {
             $this->render('error/usuario');
         }

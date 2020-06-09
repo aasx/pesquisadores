@@ -239,11 +239,11 @@
                                                 </ul>
                                                 <a><i class="la la-eye"></i>Visualizações 0</a>
                                                 <br>
-                                                <form class="mr-3 d-none form-comentario" form-id="<?php echo $aListaVaga['id']; ?>">
+                                                <form action="/principal/comentar" class="mr-3 d-none form-comentario" form-id="<?php echo $aListaVaga['id']; ?>">
                                                     <input type="hidden" name="id_postagem" value="<?php echo $aListaVaga['id']; ?>">
                                                     <input type="hidden" name="id_usuario" value="<?php  echo \App\Lib\Auth::usuario()->id; ?>">
                                                     <div class="form-group">
-                                                        <textarea class="form-control" rows="3"></textarea>
+                                                        <textarea name="comentario" class="form-control" rows="3"></textarea>
                                                     </div>
                                                     <button type="submit" class="btn btn-sm btn-primary float-right" style="background-color: #8b87aa;border-color: transparent;box-shadow: 0 8px 16px -8px black;">Postar Comentário</button>
                                                 </form>
