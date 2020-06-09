@@ -144,7 +144,7 @@
                                                         <i class="la la-map-marker"></i>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-12 no-pdd">
+                                                <div class="col-lg-12 no-pdd d-none" style="display: none;">
                                                     <div class="sn-field">
                                                         <input type="text" name="salario" placeholder="URL Currículo Lattes" required>
                                                         <i class="la la-globe"></i>
@@ -163,32 +163,6 @@
                                                             <option value="GT">Apenas Membros</option>
                                                             <option value="PG">Pesquisador</option>
                                                         </select>
-                                                    </div>
-                                                </div>
-                                                <div class="info-cartao col-lg-12 no-pdd invisivel">
-                                                    <div class="col-lg-12 no-pdd">
-                                                        <div class="sn-field">
-                                                            <input id="numero_cartao" type="text" name="numero_cartao" placeholder="Número do Cartão">
-                                                            <i class="la la-globe"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12 no-pdd">
-                                                        <div class="sn-field">
-                                                            <input id="nome_cartao" type="text" name="nome_cartao" placeholder="Nome do Cartão">
-                                                            <i class="la la-globe"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12 no-pdd">
-                                                        <div class="sn-field">
-                                                            <input id="data_validade_cartao" type="text" name="data_validade_cartao" placeholder="Data de Validade (dd/aaaa)">
-                                                            <i class="la la-globe"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12 no-pdd">
-                                                        <div class="sn-field">
-                                                            <input id="cvc_cartao" type="text" name="cvc_cartao" placeholder="Código CVC">
-                                                            <i class="la la-globe"></i>
-                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-12 no-pdd">
