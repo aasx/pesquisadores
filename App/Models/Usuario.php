@@ -409,7 +409,7 @@ class Usuario
                     "SELECT vaga.*, DATE_FORMAT(vaga.dataHora, \"%d/%m/%Y às %H:%i\") AS datah, comentarios.comentario
 FROM vaga 
 INNER JOIN comentarios ON vaga.descricao != comentarios.comentario
-WHERE vaga.id_usuario = '".$idUsuario."' ORDER BY id DESC"
+WHERE vaga.id_usuario = '".$idUsuario."' ORDER BY vaga.id DESC"
                 );
 
                 return $query->fetchAll();
