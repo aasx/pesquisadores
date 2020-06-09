@@ -233,20 +233,13 @@
 
                                                     </li>
                                                     <li>
-                                                        <a href="javascript:void(0)" title="CLIQUE PARA COMENTAR" data-id-postagem="<?php echo $aListaVaga['id']; ?>" class="comentar"><i class="la la-comments-o"></i> Comentário</a>
+                                                        <a href="javascript:void(0)" title="CLIQUE PARA COMENTAR" data-id-postagem="<?php echo $aListaVaga['id']; ?>" class="comentar"><i class="la la-comments-o"></i>Fazer Comentário</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)" title="VER COMENTARIOS" data-id-postagem="<?php echo $aListaVaga['id']; ?>" class="comentarios"><i class="la la-envelope-o"></i>Fazer Comentário</a>
                                                     </li>
                                                 </ul>
                                                 <a><i class="la la-eye"></i>Visualizações 0</a>
-                                                <br>
-                                                <div class="col-md-12" style="display: flow-root;margin-top: 1.5em;">
-                                                    <div class="card">
-                                                        <div class="card-body">
-                                                            <p class="text-muted small">
-                                                                <?php echo $aListaVaga['nomeUsuario']; ?>:&nbsp;<?php echo $aListaVaga['comentario']; ?>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                                 <br>
                                                 <form action="/principal/comentar" method="post" class="mr-3 d-none form-comentario" form-id="<?php echo $aListaVaga['id']; ?>">
                                                     <input type="hidden" name="id_postagem" value="<?php echo $aListaVaga['id']; ?>">
