@@ -61,4 +61,17 @@ $(document).ready(function () {
         $('.form-comentario[form-id="'+idPublicacao+'"]').removeClass('d-none');
 
     });
+
+    $('.comentarios').on('click', function () {
+        var idPublicacao = $(this).attr('data-id-postagem');
+        $.ajax({
+            url:"/principal/comentarios/",
+            method:"POST",
+            data:{idPublicacao: idPublicacao},
+            success:function(n){
+                $('#modal-comentarios').modal('show');
+                $('.content-coments').html(n);
+            }
+        });
+    });
 });

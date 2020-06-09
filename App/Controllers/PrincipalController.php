@@ -401,4 +401,28 @@ class PrincipalController extends Controller {
             $this->render('error/usuario');
         }
     }
+
+    public function comentarios() {
+        if(isset($_POST['idPublicacao'])) {
+            $idPublicacao = $_POST['idPublicacao'];
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
+            $result = mysqli_query($conn, "SELECT vaga.*, comentarios.comentario
+                        FROM comentarios
+                        INNER JOIN vaga ON vaga.id = comentarios.id_postagem");
+
+            while($row = mysqli_fetch_assoc($result)) {
+                $row["listagem"] = '
+                    <div class="card">
+                    <div class="card-header">'.$row['nomeUsuario'].'</div>
+                        <div class="card-body">
+                        '.$row['comentario'].'
+                        </div>
+                    </div>  
+                    ';
+                ?>
+                <?php
+                echo $row["listagem"];
+            }
+        }
+    }
 }

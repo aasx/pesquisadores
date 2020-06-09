@@ -236,7 +236,7 @@
                                                         <a href="javascript:void(0)" title="CLIQUE PARA COMENTAR" data-id-postagem="<?php echo $aListaVaga['id']; ?>" class="comentar"><i class="la la-comments-o"></i>Fazer Comentário</a>
                                                     </li>
                                                     <li>
-                                                        <a href="javascript:void(0)" title="VER COMENTARIOS" data-id-postagem="<?php echo $aListaVaga['id']; ?>" class="comentarios"><i class="la la-envelope-o"></i>Fazer Comentário</a>
+                                                        <a href="javascript:void(0)" title="VER COMENTARIOS" data-id-postagem="<?php echo $aListaVaga['id']; ?>" class="comentarios"><i class="la la-envelope-o"></i>Ver Comentário</a>
                                                     </li>
                                                 </ul>
                                                 <a><i class="la la-eye"></i>Visualizações 0</a>
@@ -566,6 +566,26 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-light" data-dismiss="modal">Cancelar Edição</button>
                 <button id="btn-editar-vaga" type="button" class="btn btn-secondary">Salvar Alterações</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal comentarios -->
+<div class="modal fade" id="modal-comentarios" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Comentários</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="content-coments"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
             </div>
         </div>
     </div>
