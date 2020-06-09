@@ -239,7 +239,7 @@
                                                 </ul>
                                                 <a><i class="la la-eye"></i>Visualizações 0</a>
                                                 <br>
-                                                <form action="/principal/comentar" class="mr-3 d-none form-comentario" form-id="<?php echo $aListaVaga['id']; ?>">
+                                                <form action="/principal/comentar" method="post" class="mr-3 d-none form-comentario" form-id="<?php echo $aListaVaga['id']; ?>">
                                                     <input type="hidden" name="id_postagem" value="<?php echo $aListaVaga['id']; ?>">
                                                     <input type="hidden" name="id_usuario" value="<?php  echo \App\Lib\Auth::usuario()->id; ?>">
                                                     <div class="form-group">
