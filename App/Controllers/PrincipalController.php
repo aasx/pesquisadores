@@ -389,10 +389,11 @@ class PrincipalController extends Controller {
             $idUser = $_POST['id_usuario'];
             $idPublicacao = $_POST['id_postagem'];
             $comentario = $_POST['comentario'];
+            $dataHora = date('Y-m-d H:i:s');
 
             $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
 
-            mysqli_query($conn, "INSERT INTO comentarios (id_postagem, id_usuario, comentario) VALUES ('$idPublicacao', '$idUser', '$comentario')");
+            mysqli_query($conn, "INSERT INTO comentarios (id_postagem, id_usuario, comentario, dataHora) VALUES ('$idPublicacao', '$idUser', '$comentario', '$dataHora')");
 
             header("Location: /principal/index");
 
