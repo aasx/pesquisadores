@@ -233,7 +233,7 @@
                                                         <!-- <img src="/public/images/liked-img.png" alt=""> -->
 
                                                     </li>
-                                                    <li><a href="#" title="" class="com"><i class="la la-comments"></i> Comentário</a></li>
+                                                    <li><a href="#" title="" class="com"><i class="la la-comments-o"></i> Comentário</a></li>
                                                 </ul>
                                                 <a><i class="la la-eye"></i>Visualizações 0</a>
                                             </div>
