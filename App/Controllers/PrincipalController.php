@@ -394,10 +394,7 @@ class PrincipalController extends Controller {
 
             mysqli_query($conn, "INSERT INTO comentarios (id_postagem, id_usuario, comentario) VALUES ('$idPublicacao', '$idUser', '$comentario')");
 
-            sleep(1);
-
             header("Location: /principal/index");
-            exit();
 
         } else {
             $this->render('error/usuario');
