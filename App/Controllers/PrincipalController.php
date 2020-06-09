@@ -372,12 +372,12 @@ class PrincipalController extends Controller {
                 while($row = mysqli_fetch_assoc($result)) {
                     mysqli_query($conn, "DELETE FROM curtidas WHERE id_user = '".$idUser."' AND id_publicacao = '".$idPublicacao."'");
                     header('Content-Type: application/json');
-                    echo json_encode(array('curtir'=> '0'));
+                    echo json_encode(array('curtir'=> '0', 'pb' => $idPublicacao));
                 }
             } else {
                 mysqli_query($conn, "INSERT INTO curtidas (id_user, id_publicacao) VALUES ('".$idUser."', '".$idPublicacao."')");
                 header('Content-Type: application/json');
-                echo json_encode(array('curtir'=> '1'));
+                echo json_encode(array('curtir'=> '1', 'pb' => $idPublicacao));
             }
         } else {
             $this->render('error/usuario');

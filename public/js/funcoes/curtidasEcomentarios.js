@@ -7,6 +7,7 @@ $(document).ready(function () {
             method:"POST",
             data:{idUser: idUser, idPublicacao: idPublicacao},
             success:function(n){
+                console.log(n);
                 if(n.curtir == 1 || n.curtir == '1') {
                     console.log('curtiu!');
                     Swal.fire({
