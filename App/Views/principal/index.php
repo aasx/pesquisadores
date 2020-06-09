@@ -238,11 +238,13 @@
                                                     </li>
                                                 </ul>
                                                 <a><i class="la la-eye"></i>Visualizações 0</a>
+                                                <br>
                                                 <hr>
                                                 <form>
                                                     <div class="form-group">
                                                         <textarea class="form-control" rows="3"></textarea>
                                                     </div>
+                                                    <button class="btn btn-sm btn-light float-right">Postar Comentário</button>
                                                 </form>
                                             </div>
                                         </div>
