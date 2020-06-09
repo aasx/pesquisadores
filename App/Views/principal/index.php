@@ -234,16 +234,16 @@
 
                                                     </li>
                                                     <li>
-                                                        <a href="javascript:void(0)" title="" class="comentar"><i class="la la-comments-o"></i> Comentário</a>
+                                                        <a href="javascript:void(0)" title="CLIQUE PARA COMENTAR" data-id-postagem="<?php echo $aListaVaga['id']; ?>" class="comentar"><i class="la la-comments-o"></i> Comentário</a>
                                                     </li>
                                                 </ul>
                                                 <a><i class="la la-eye"></i>Visualizações 0</a>
                                                 <br>
-                                                <form>
+                                                <form class="mr-3 d-none">
                                                     <div class="form-group">
                                                         <textarea class="form-control" rows="3"></textarea>
                                                     </div>
-                                                    <button class="btn btn-sm btn-primary float-right">Postar Comentário</button>
+                                                    <button type="submit" class="btn btn-sm btn-primary float-right" style="background-color: #8b87aa;border-color: transparent;box-shadow: 0 8px 16px -8px black;">Postar Comentário</button>
                                                 </form>
                                             </div>
                                         </div>
