@@ -20,7 +20,7 @@ $(document).ready(function () {
                         showConfirmButton: false,
                         timer: 1500
                     });
-                    $('a[data-id-postagem="'+n.pb+'"] i').addClass('text-danger');
+                    $('a[data-id-postagem="'+n.pb+'"]').addClass('text-danger');
                 } else if(n.curtir == 0 || n.curtir == '0') {
                     console.log('DEScurtiu!');
                     Swal.fire({
@@ -33,7 +33,7 @@ $(document).ready(function () {
                         showConfirmButton: false,
                         timer: 1500
                     });
-                    $('a[data-id-postagem="'+n.pb+'"] i').removeClass('text-danger');
+                    $('a[data-id-postagem="'+n.pb+'"]').removeClass('text-danger');
                 } else {
                     console.log('ERRO AO RECEBER PARAMETROS...');
                     Swal.fire({
