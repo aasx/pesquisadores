@@ -357,4 +357,29 @@ class PrincipalController extends Controller {
             $this->render('error/usuario');
         }
     }
+
+    public function curtir() {
+        if(isset($_POST['idUser']) && isset($_POST['idPublicacao'])) {
+            $idUser = $_POST['idUser'];
+            $idPublicacao = $_POST['idPublicacao'];
+
+            $conn = mysqli_connect("remotemysql.com", "xuzhvu3ZzJ", "neVSzrJgAW", "xuzhvu3ZzJ");
+
+            $result = mysqli_query($conn, "SELECT * FROM curtidas WHERE id_publicacao = '".$idPublicacao."' AND id_user = '".$idUser."'");
+
+            if (mysqli_num_rows($result) > 0) {
+                while($row = mysqli_fetch_assoc($result)) {
+                    mysqli_query($conn, "DELETE FROM curtidas WHERE id_user = '".$idUser."' AND id_publicacao = '".$idPublicacao."'");
+                    header('Content-Type: application/json');
+                    echo json_encode(array('curtir'=> '0'));
+                }
+            } else {
+                mysqli_query($conn, "INSERT INTO curtidas (id_user, id_publicacao) VALUES ('".$idUser."', '".$idPublicacao."')");
+                header('Content-Type: application/json');
+                echo json_encode(array('curtir'=> '1'));
+            }
+        } else {
+            $this->render('error/usuario');
+        }
+    }
 }
